@@ -39,7 +39,7 @@ init.param = NULL, qq2 = 10, cal.inf = FALSE, max.iter = 5000, seed = 1)
 ```
 This function performs the (accelerated) EM algorithm to compute the sieve NPMLE. The algorithm starts with the standard EM algorithm. Once the difference between the log-likelihood values or the parameter values of consecutive iterations becomes smaller than a certain threshold, an accelerated EM algorithm (Vardhan and Roland 2008) will be adopted until convergence.
 
-The defines of the model can be found in [Wong et al.](https://doi.org/10.1214/21-AOS2117) (2022) or the help manual with the named "LatentClassJM_0.1.0.pdf".
+The details of the model can be found in [Wong et al.](https://doi.org/10.1214/21-AOS2117) (2022) and the help manual named "LatentClassJM_0.1.0.pdf".
 
 ### Input
 
